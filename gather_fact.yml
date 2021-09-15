@@ -1,0 +1,7 @@
+---
+- name: Gather fact for smart inventories
+  hosts: all
+
+  gather_facts: true
+
+  tasks:
