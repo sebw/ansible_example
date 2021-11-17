@@ -5,5 +5,5 @@
   gather_facts: true
   
   tasks:
-    - debug: var=ansible_all_ipv4_addresses
+ #   - debug: var=ansible_all_ipv4_addresses
     - debug: var=ansible_default_ipv4.address
