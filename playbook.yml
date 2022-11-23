@@ -6,4 +6,4 @@
 
   tasks:
   - debug:
-      msg: Hello {{ who }}
+      msg: Hello. {{ my_var }}
