@@ -1,0 +1,9 @@
+---
+- name: Another simple task
+  hosts: all
+
+  gather_facts: false
+
+  tasks:
+  - debug:
+      msg: I will be back
