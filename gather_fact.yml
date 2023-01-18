@@ -1,5 +1,5 @@
 ---
-- name: Gather fact for smart inventories
+- name: Gather facts to update smart inventories
   hosts: all
 
   gather_facts: true
